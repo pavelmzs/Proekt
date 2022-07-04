@@ -38,6 +38,5 @@ namespace Proga
             Chart.Plot.XAxis.DateTimeFormat(true);
             Chart.Refresh();
         }
-
     }
 }
