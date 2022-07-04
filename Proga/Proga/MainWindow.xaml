@@ -19,5 +19,6 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <WpfPlot Name="Chart" Grid.Column="1" Grid.RowSpan="3" IsEnabled="False"/>
+        <WpfPlot Name="Dinamica" Grid.Column="1" Grid.RowSpan="3" IsEnabled="False" Visibility="Hidden"/>
     </Grid>
 </Window>
