@@ -14,13 +14,15 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="13*"/>
             <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <WpfPlot Name="Chart" Grid.Column="1" Grid.RowSpan="3" IsEnabled="False"/>
         <WpfPlot Name="Dinamica" Grid.Column="1" Grid.RowSpan="3" IsEnabled="False" Visibility="Hidden"/>
-        <DatePicker Name="DateStart" HorizontalAlignment="Center" Margin="0,30,0,0" Grid.Row="1" VerticalAlignment="Top"/>
-        <DatePicker Name="DateEnd" HorizontalAlignment="Center" Margin="0,86,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <DatePicker Name="DateStart" HorizontalAlignment="Center" Margin="39,12,100,0" Grid.Row="1" VerticalAlignment="Top" SelectedDateFormat="Short"/>
+        <DatePicker Name="DateEnd" HorizontalAlignment="Center" Margin="39,52,100,0" Grid.Row="1" VerticalAlignment="Top" SelectedDateFormat="Short"/>
+        <Label Content="От" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-1.042,-1"/>
+        <Label Content="До" HorizontalAlignment="Left" Margin="9,51,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="Построение графика" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" FontWeight="Bold"/>
     </Grid>
 </Window>
