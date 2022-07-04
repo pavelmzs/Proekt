@@ -23,7 +23,7 @@ namespace Proga
         public MainWindow()
         {
             InitializeComponent();
-            double[] dataX = new double[] { 5432, 3566, 3467, 6578, 5322 };
+            double[] dataX = new double[] { 1, 2, 6, 3, 2 };
             DateTime[] date = new DateTime[5];
             for(int i = 0; i < date.Length; i++)
             {

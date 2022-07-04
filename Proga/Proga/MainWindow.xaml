@@ -17,7 +17,7 @@
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="4*"/>
         </Grid.ColumnDefinitions>
-        <WpfPlot Name="Chart" Grid.Column="1" Grid.RowSpan="3"/>
+        <WpfPlot Name="Chart" Grid.Column="1" Grid.RowSpan="3" IsEnabled="False"/>
 
     </Grid>
 </Window>
