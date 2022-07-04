@@ -22,3 +22,11 @@ D:\GitHuk\Proekt\Proga\Proga\obj\Debug\Proga.csproj.CoreCompileInputs.cache
 D:\GitHuk\Proekt\Proga\Proga\obj\Debug\Proga.csproj.CopyComplete
 D:\GitHuk\Proekt\Proga\Proga\obj\Debug\Proga.exe
 D:\GitHuk\Proekt\Proga\Proga\obj\Debug\Proga.pdb
+D:\GitHuk\Proekt\Proga\Proga\bin\Debug\EntityFramework.dll
+D:\GitHuk\Proekt\Proga\Proga\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHuk\Proekt\Proga\Proga\bin\Debug\System.Data.SQLite.dll
+D:\GitHuk\Proekt\Proga\Proga\bin\Debug\System.Data.SQLite.EF6.dll
+D:\GitHuk\Proekt\Proga\Proga\bin\Debug\System.Data.SQLite.Linq.dll
+D:\GitHuk\Proekt\Proga\Proga\bin\Debug\EntityFramework.xml
+D:\GitHuk\Proekt\Proga\Proga\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHuk\Proekt\Proga\Proga\bin\Debug\System.Data.SQLite.xml
