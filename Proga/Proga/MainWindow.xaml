@@ -18,7 +18,6 @@
             <ColumnDefinition Width="30*"/>
         </Grid.ColumnDefinitions>
         <WpfPlot Name="Chart" Grid.Column="1" Grid.RowSpan="3" IsEnabled="False"/>
-        <WpfPlot Name="Dinamica" Grid.Column="1" Grid.RowSpan="3" IsEnabled="False" Visibility="Hidden"/>
         <DatePicker Name="DateStart" HorizontalAlignment="Center" Margin="39,12,100,0" Grid.Row="1" VerticalAlignment="Top" SelectedDateFormat="Short"/>
         <DatePicker Name="DateEnd" HorizontalAlignment="Center" Margin="39,52,100,0" Grid.Row="1" VerticalAlignment="Top" SelectedDateFormat="Short"/>
         <Label Content="От" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-1.042,-1"/>
