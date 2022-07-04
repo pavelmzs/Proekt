@@ -23,6 +23,10 @@ namespace Proga
         public MainWindow()
         {
             InitializeComponent();
+            DateStart.DisplayDateStart = new DateTime(2021, 11, 01);
+            DateStart.DisplayDateEnd = new DateTime(2021, 11, 30);
+            DateEnd.DisplayDateStart = new DateTime(2021, 11, 01);
+            DateEnd.DisplayDateEnd = new DateTime(2021, 11, 30);
             double[] dataX = new double[] { 1, 2, 6, 3, 2 };
             DateTime[] date = new DateTime[5];
             for(int i = 0; i < date.Length; i++)

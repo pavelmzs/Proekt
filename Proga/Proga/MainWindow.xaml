@@ -20,5 +20,7 @@
         </Grid.ColumnDefinitions>
         <WpfPlot Name="Chart" Grid.Column="1" Grid.RowSpan="3" IsEnabled="False"/>
         <WpfPlot Name="Dinamica" Grid.Column="1" Grid.RowSpan="3" IsEnabled="False" Visibility="Hidden"/>
+        <DatePicker Name="DateStart" HorizontalAlignment="Center" Margin="0,30,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <DatePicker Name="DateEnd" HorizontalAlignment="Center" Margin="0,86,0,0" Grid.Row="1" VerticalAlignment="Top"/>
     </Grid>
 </Window>
